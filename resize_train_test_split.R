@@ -1,3 +1,8 @@
+# This script is used to resize images from 64x64 to 28x28 pixels
+# Clear workspace
+rm(list=ls())
+# Load EBImage library
+require(EBImage)
 # Load data
 # Setting the current working directory to be the folder containing the files
 setwd("E:/Datasets/TrafficLight/MXNet Training")
